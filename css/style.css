@@ -1,0 +1,150 @@
+body{
+    font-family: Ubuntu;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+section{
+    width: 100%;
+    display: inline-block;
+}
+
+.w3-bar-item{
+    transition: ease 0.5s;
+}
+
+#logo{
+    width: 50%;
+}
+
+.mynav{
+    font-size: 125%;
+}
+
+#tag{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0 0 20px;
+    font-style: italic;
+    font-family: Courgette;
+    margin: 10px;
+}
+
+#container{
+    display: inline-block;
+    margin: 0.5% 5%;
+}
+
+.split{
+    font-family: Courgette;
+    font-size: 170%;
+    font-style: italic;
+}
+
+@media screen and (max-width: 470px) {
+    #tag{
+        display: none;
+    }
+    #container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 631px) {
+    #container{
+        display: none;
+    }
+}
+
+.mySlides {display:none;}
+
+.imgcontainer{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.slideimg{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.slidetxtbox{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+
+.slideh1{
+    max-height: 25%;
+}
+
+.slidepg{
+    max-height: 75%;
+    font-size: 100%;
+}
+
+.headcontainer{
+    padding: 0 13px
+}
+
+.headings{
+    margin: 0;
+    padding: 0;
+}
+
+.panels{
+    margin: 0;
+    padding: 0;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.w3-card-2{
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+}
+
+#map-container{
+    width: 65%;
+    float: left;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#location-list{
+    width: 35%;
+    float: left;
+    list-style: none;
+}
+
+li:hover .pajarito{
+    opacity: 1;
+}
+
+.pajarito{
+    opacity: 0.2;
+}
